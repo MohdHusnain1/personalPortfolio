@@ -1,29 +1,35 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 375px;
   height: 48px;
-  top: 44px;
-  gap: 67%;
+  margin: 0 auto;
 }
 
 .heading {
-  font: poppins;
-  font-weight: 700;
-  size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   line-height: 20px;
   text-align: center;
-  justify-content: center;
   color: #6070ff;
 }
 
 .img {
   width: 24px;
   height: 24px;
-  top: 4px;
   border-radius: 8px;
-  left: 611px;
-  padding: 3px;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -32,35 +38,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  font-weight: 900;
   width: 375px;
-  height: 604px;
-  top: 92px;
-  padding-top: 114px;
-  padding-bottom: 114px;
-  padding-left: 24px;
-  padding-right: 24px;
+  height: auto;
+  padding: 114px 24px;
   gap: 12px;
   background-image: url("background.png");
   background-repeat: no-repeat;
-  margin-left: 1px;
+  margin: 0 auto;
 }
 
 .head {
   width: 327px;
-  height: 150px;
-  font: poppins;
-  font-weight: 400px;
-  size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   color: #172b4d;
 }
 
 .para1 {
   width: 327px;
-  height: 146px;
-  font: poppins;
-  font-weight: 400px;
-  size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
@@ -68,17 +70,97 @@
 .h3Headline {
   width: 117px;
   height: 24px;
-  font: poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 10 px;
+  line-height: 24px;
   color: #7f8cff;
 }
 
 .socialmediaIcons {
   width: 170px;
   height: 20px;
+  display: flex;
   gap: 0px;
-  opacity: 0px;
-  color: #505f79;
+  opacity: 0;
+  color: black #505f79;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 88px;
+  padding: 114px 24px 114px 24px;
+}
+.project-item {
+  max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 12px;
+  background-color: white;
+  width: 327px;
+  height: 596px;
+  padding: 16px;
+  row-gap: 12px;
+  border-radius: 16px;
+}
+.project-item .details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  font-family: Poppins;
+}
+.details p {
+  margin: 0px;
+  color: #344563;
+}
+
+.details button {
+  width: 126px;
+  height: 48px;
+  padding: 12px;
+  color: #396df2;
+  font: Poppin;
+  font-size: 17px;
+  border-color: #396df2;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-top: 12px;
+}
+.project-item h2 {
+  margin: 0px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.developer-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 10pxpx;
+  font-size: 13px;
+}
+.developer-details .class2 {
+  color: #7a869a;
+}
+.class1 {
+  color: #344563;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+.skills label {
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  color: #6070ff;
+  font-size: 12px;
 }
