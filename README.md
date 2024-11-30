@@ -1,3 +1,3 @@
 # Portfolio
-ersonal portfolio
+Personal portfolio  
 mobile-version
