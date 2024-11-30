@@ -1,2 +1,2 @@
-# personalPortfolio
-A project showing the personal portfolio
+# Portfolio
+ 2nd project, Portfolio project
